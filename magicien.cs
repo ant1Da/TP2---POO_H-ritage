@@ -11,6 +11,10 @@ class Magicien: Personnage
     {
         return this.puissanceMagique;
     }
+    public void LancerSort()
+    {
+        Console.WriteLine($"Le magicien {this.getName} lance un sort.");
+    }
     public override void Afficher()
     {
         Console.WriteLine($"Nom : {this.getName()} | Points de vie : {this.getPv()} | Puissance Magique : {this.getPuissanceMagique()}");

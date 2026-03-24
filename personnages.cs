@@ -19,7 +19,14 @@ class Personnage
     {
         this.pointsDeVie -= d;
     }
-    public void Afficher()
+    public void recevoirDegats(int d, int reduction)
+    {
+        if (reduction < d)
+        {
+            this.pointsDeVie -= d - reduction;
+        }
+    }
+    public virtual void Afficher()
     {
         Console.WriteLine($"Nom : {this.getName()} | Points de vie : {this.getPv()}.");
     }
