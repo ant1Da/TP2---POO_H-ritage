@@ -5,14 +5,14 @@ class Magicien: Personnage
     {
         this.name = name;
         this.pointsDeVie = pv;
-        this.PuissanceMagique = puissanceMagique;
+        this.puissanceMagique = puissanceMagique;
     }
     public int getPuissanceMagique()
     {
-        return this.PuissanceMagique;
+        return this.puissanceMagique;
     }
     public override void Afficher()
     {
-        Console.WriteLine($"Nom : {this.getName()} | Points de vie : {this.getPv()} | puissanceMagique : {this.getPuissanceMagique()}");
+        Console.WriteLine($"Nom : {this.getName()} | Points de vie : {this.getPv()} | Puissance Magique : {this.getPuissanceMagique()}");
     }
 }
