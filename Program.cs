@@ -17,6 +17,20 @@ class Program
         foreach (Personnage p in Personnages)
         {
             p.Afficher();
+            if (p is Magicien magicien)
+            {
+                magicien.LancerSort();
+            }
+            if (p is Guerrier guerrier)
+            {
+                guerrier.Attaquer();
+            }
         }
     }
 }
+
+// Surcharge ca tu modifies la signature(nom,paramètres) de la méthode. La redéfinition consiste à réimplémenter différemment la même méthode dans une classe héritant
+// virtual et override permettent un ordre de priorité des méthodes selon la classe de l'objet utilisant la méthode.
+// le polymorphisme permet de créer des méthodes similaires mais de les personalliser aux classes héritées afin d'être plus spécifique selon la classe
+// car la classe de l'objet peut être pas la bonne
+// cela permet de vérifier que les méthodes utilisées par les objets de la bonne classe
