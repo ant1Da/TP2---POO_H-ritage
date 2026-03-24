@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TP2-POO-Héritage")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6706ae1225dcc93a6975a7f00d8e35bcaa4bca3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+459703a893971c549119ef38dad4be13588febaa")]
 [assembly: System.Reflection.AssemblyProductAttribute("TP2-POO-Héritage")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TP2-POO-Héritage")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
